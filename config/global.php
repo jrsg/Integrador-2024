@@ -8,13 +8,13 @@ function getSidebar($ruta = ''){
     <li class="nav-item">
         <a class="nav-link" href="{$ruta}index.php">
             <i class="fas fa-calculator"></i>
-            <span>Cotizaciones</span>
+            <span>Opción 1</span>
         </a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{$ruta}index.php">
             <i class="fas fa-truck"></i>
-            <span>Envíos</span>
+            <span>Opción 2</span>
         </a>
     </li>
     <li class="nav-item dropdown">
@@ -24,16 +24,16 @@ function getSidebar($ruta = ''){
             <span>Catálogos</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">                        
-            <a class="dropdown-item" href="#">Usuarios</a>
-            <a class="dropdown-item" href="#">Clientes</a>            
-            <a class="dropdown-item" href="#">Sucursales</a>
+            <a class="dropdown-item" href="#">Opción 1</a>
+            <a class="dropdown-item" href="#">Opción 2</a>            
+            <a class="dropdown-item" href="#">Opción 3</a>
             <div class="dropdown-divider"></div>        
-            <a class="dropdown-item" href="#">Paqueterías</a>            
-            <a class="dropdown-item" href="#">Tipos de paquetes</a>
+            <a class="dropdown-item" href="#">Opción 4</a>            
+            <a class="dropdown-item" href="#">Opción 5</a>
             <div class="dropdown-divider"></div>            
-            <a class="dropdown-item" href="#">Colonias</a>
-            <a class="dropdown-item" href="#">Localidades</a>
-            <a class="dropdown-item" href="#">Municipios</a>            
+            <a class="dropdown-item" href="#">Opción 6</a>
+            <a class="dropdown-item" href="#">Opción 7</a>
+            <a class="dropdown-item" href="#">Opción 8</a>            
         </div> 
     </li>
     <li class="nav-item">
@@ -90,9 +90,7 @@ function getNavbar($ruta = ''){
                 <i class="fas fa-user-circle fa-fw"></i>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">Mi perfil</a>
-                <a class="dropdown-item" href="#">Mis direcciones</a>
-                <a class="dropdown-item" href="#">Mis facturas</a>
+                <a class="dropdown-item" href="#">Mi perfil</a>                
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Salir</a>
             </div>
