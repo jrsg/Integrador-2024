@@ -41,18 +41,6 @@
 
 ## Funcionalidades
 
-### Administración de catálogos
-1. Usuarios del sistema.
-2. Clientes.
-3. Sucursales.
-4. Países.
-5. Estados.
-6. Municipios.
-7. Localidades.
-8. Colonias.
-9. Paqueterías.
-10. Tipos de paquetes.
-
 ### Proceso de negocio
 1. Generación de un PDF con información de cotización o envío.
 2. Administración de cotizaciones (cliente y UCC).
